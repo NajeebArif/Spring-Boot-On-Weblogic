@@ -27,3 +27,5 @@ hs_err_pid*
 /.idea/**
 /.mvn/**
 HELP.md
+mvnw
+*.cmd
