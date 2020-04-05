@@ -8,11 +8,10 @@ If you are here, then that means you are already familiar with benefits of Sprin
 So without wasting much let’s get started with how to do that.
 
 First thing we will do is that, when we run the spring initializer we will select the default packaging mode as WAR. I have used spring website because I am using IntelliJ Community Edition. You can use STS or intelliJ Ultimate Edition for the same.
-
-![](readme-images/spring-init)
+![](readme-images/spring-init.png)
 
 Once the skeleton project is created you will see a servlet initializer config class created for you.
-![](readme-images/ServletInitializer)
+![](readme-images/ServletInitializer.png)
  
 This class extends the SpringBootServletInitializer class and overrides the configure method. All the codes are auto generated for you and digging into the details of this class is indeed a concern for another topic.
 
@@ -67,10 +66,10 @@ These are the bare minimum stuffs you will need to deploy a spring boot war on w
 So run mvn package and deploy the war file on weblogic.
 
 Build phase:
- ![](readme-images/build)
+![](readme-images/build.png)
  
 Deployment phase:
- ![](readme-images/deploy)
+![](readme-images/deploy.png)
  
 Now let’s create a very simple ping service which will respond with “pong”.
 
@@ -91,7 +90,7 @@ public class EchoRestService {
 ```
  
 Again build and ship to wls and try this url in postman.
- ![](readme-images/postman)
+![](readme-images/postman.png)
  
 •	NOTE:
 •	I have used Spring Boot 2.2.6
