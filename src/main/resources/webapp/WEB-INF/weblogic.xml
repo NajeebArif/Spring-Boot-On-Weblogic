@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.7/weblogic-web-app.xsd">
+    <context-root>/contextRoot</context-root>
+    <session-descriptor>
+        <cookies-enabled>false</cookies-enabled>
+    </session-descriptor>
+
+    <container-descriptor>
+        <prefer-application-packages>
+            <package-name>org.slf4j</package-name>
+            <package-name>com.fasterxml</package-name>
+            <package-name>org.springframework</package-name>
+            <package-name>org.apache.logging</package-name>
+            <package-name>org.apache</package-name>
+        </prefer-application-packages>
+    </container-descriptor>
+</weblogic-web-app>
